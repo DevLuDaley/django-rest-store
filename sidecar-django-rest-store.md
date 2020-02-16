@@ -10,13 +10,11 @@ source venv_django_rest_store/bin/activate
 
 # install django
 
-# 'Installing collected packages: asgiref, sqlparse, pytz, django'
-
-# WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
-
-# You should consider upgrading via the 'pip install --upgrade pip' command.
-
 pip install django
+
+- 'Installing collected packages: asgiref, sqlparse, pytz, django'
+- WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+- You should consider upgrading via the 'pip install --upgrade pip' command.
 
 -
 pip install djangorestframework
@@ -32,4 +30,15 @@ pip install pillow
 # add '127.0.0.1' to allowed_hosts in setttings.py
 
 -
-pip install mock==0.8.0
+▶ pip install mock==0.8.0
+
+-
+▶ python3 manage.py makemigrations
+
+▶ python3 manage.py migrate
+
+- Operations to perform:
+- Apply all migrations: admin, auth, contenttypes, sessions, store
+- Running migrations:
+- Applying auth.0010_alter_group_name_max_length... OK
+- Applying auth.0011_update_proxy_permissions... OK
