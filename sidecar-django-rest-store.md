@@ -18,12 +18,18 @@ source venv_django_rest_store/bin/activate
 
 pip install django
 
+-
 pip install djangorestframework
 
+-
 pip install django-filter
 
 # add 'django_filters' to your INSTALLED_APPS.
 
+-
 pip install pillow
 
 # add '127.0.0.1' to allowed_hosts in setttings.py
+
+-
+pip install mock==0.8.0
