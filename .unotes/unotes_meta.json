@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "demo": {
+      "name": "demo",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "venv_django_rest_store": {
+      "name": "venv_django_rest_store",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    }
+  },
+  "files": {
+    "sidecar-django-rest-store": 0,
+    "README": 1
+  }
+}
